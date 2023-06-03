@@ -1,0 +1,53 @@
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.contacts{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 200px;
+width: clamp(300px, 80vw, 600px);
+margin: 5vh auto;
+font-size: 21px;
+font-weight: 600;
+text-align: center;
+border-radius: 15px;
+background-color: orange;
+}
+
+.search{
+  margin: 10px auto;
+  font-size: 21px;
+  display: block;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.name{
+  display: flex;
+  flex-direction: row;
+}
+
+p{
+  margin: 5px 5px 5px 0;
+}
